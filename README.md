@@ -180,3 +180,10 @@ curl -X DELETE http://localhost:8000/knowledgebase/reset-all/
 ```
 curl -X DELETE http://localhost:8000/workflows/
 ```
+
+## 🐳 Docker Setup
+This project is fully containerized using Docker and Docker Compose.
+### 📦 Build & Run Everything
+```
+docker-compose up --build
+```
