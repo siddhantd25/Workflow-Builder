@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 🔧 Ensure full page sizing works correctly */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+/* 🔧 Ensure all React Flow containers fill space */
+.react-flow {
+  width: 100%;
+  height: 100%;
+}
+
+/* Smooth node transitions and hover style */
+.react-flow__node {
+  transition: all 0.2s ease-in-out;
+}
+
+.react-flow__node:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}

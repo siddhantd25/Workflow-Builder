@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+psycopg2-binary
+alembic
+chromadb
+pymupdf
+openai
+google-generativeai
+requests
+prometheus-fastapi-instrumentator
+python-dotenv

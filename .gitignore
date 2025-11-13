@@ -1,0 +1,39 @@
+# -------------------------
+# FRONTEND
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/README.md
+# frontend/.env
+
+# -------------------------
+# BACKEND
+# -------------------------
+backend/venv/
+backend/.env
+backend/alembic.ini
+backend/alembic/versions/
+backend/alembic/__pycache__/
+backend/chroma_data/
+backend/uploaded_files/
+backend/*.sqlite3
+backend/*.db
+backend/__pycache__/
+backend/app/__pycache__/
+backend/**/*.pyc
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+setup.txt
+
+deploy
